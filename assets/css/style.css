@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
 
 body{
-    background-color: #111418;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
+    background-color: #171717;
     color: white;
 }
 
-.portfolio-title {
+.portfolio-title{
     font-family: 'Mr Dafoe';
 }
