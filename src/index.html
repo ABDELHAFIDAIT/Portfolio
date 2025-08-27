@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/output.css">
     <link rel="icon" type="image/png" href="../assets/images/logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
@@ -125,10 +126,10 @@
 
     <!-- Hero Section -->
     <section class="flex flex-col gap-5 md:gap-8 px-10 md:px-20 pt-16 md:pt-24">
-        <img src="../assets/images/profile.jpeg" alt="Profile Picture" class="w-24 h-24 md:w-32 md:h-32 rounded-full">
-        <p class="text-3xl md:text-4xl lg:text-5xl font-semibold bg-gradient-to-r from-[#DDDDDD] via-[#AAAAAA] to-[rgb(132,132,132)] bg-clip-text text-transparent leading-10 lg:leading-16">Hi I'm Abdelhafid AIT EL MOKHTAR, Full Stack Developper</p>
-        <p class="text-[#989898] text-sm md:text-base lg:w-5/6 font-light">I am a Full-Stack Developer based in Morocco, passionate about <span class="text-[#dcdcdc]">building innovative, functional, and visually appealing web applications</span>. With experience in both front-end and back-end development, I enjoy turning ideas into interactive solutions that combine clean design with strong technical foundations.</p>
-        <div class="flex items-center gap-5">
+        <img src="../assets/images/profile.jpeg" alt="Profile Picture" data-aos="fade-right" data-aos-duration="1000" class="w-24 h-24 md:w-32 md:h-32 rounded-full">
+        <p data-aos="fade-up" data-aos-duration="1000" class="text-3xl md:text-4xl lg:text-5xl font-semibold bg-gradient-to-r from-[#DDDDDD] via-[#AAAAAA] to-[rgb(132,132,132)] bg-clip-text text-transparent leading-10 lg:leading-16">Hi I'm Abdelhafid AIT EL MOKHTAR, Full Stack Developper</p>
+        <p data-aos="fade-up" data-aos-duration="1000" class="text-[#989898] text-sm md:text-base lg:w-5/6 font-light">I am a Full-Stack Developer based in Morocco, passionate about <span class="text-[#dcdcdc]">building innovative, functional, and visually appealing web applications</span>. With experience in both front-end and back-end development, I enjoy turning ideas into interactive solutions that combine clean design with strong technical foundations.</p>
+        <div  data-aos="fade-up-right" data-aos-duration="1000" class="flex items-center gap-5">
             <a href="#" class="text-[#dcdcdc] text-xs md:text-sm flex items-center gap-3 px-7 py-3 border border-[#424242] rounded-full w-fit transition-all ease-in-out duration-300 hover:bg-black hover:border-black">
                 <span>Get in touch</span>
                 <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -147,7 +148,7 @@
 
 
     <!-- Technologies Section -->
-    <section class="overflow-hidden mx-10 md:mx-20 py-14">
+    <section data-aos="zoom-in" data-aos-duration="1000" class="overflow-hidden mx-10 md:mx-20 py-14">
         <div class="carousel-track">
             <div class="flex items-center gap-16 px-10">
                 <svg class="cursor-pointer" fill="#FFFFFF" width="30px" height="30px" viewBox="0 0 32 32">
@@ -232,7 +233,12 @@
         </div>
     </section>
 
+    
 
     <script src="../assets/js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
